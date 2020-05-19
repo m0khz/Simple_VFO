@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRA818V
+D VHF Band FM Voice Transceiver Module
+K transceiver module
+F http://www.dorji.com/docs/data/DRA818V.pdf
+$ENDCMP
+#
+#End Doc Library
