@@ -44,7 +44,7 @@ void update_si5351(){
         //Serial.print("Si5351a value A to set is =  ");
         //Serial.println(u.vfo_a);
         si5351.set_freq((u.vfo_a * 100ULL), SI5351_CLK0);
-        //si5351.set_freq((BFO_freq * 100ULL), SI5351_CLK2);
+        //si5351.set_freq((u.BFO_freq * 100ULL), SI5351_CLK2);
         delay(50);
       }
   
@@ -53,7 +53,7 @@ void update_si5351(){
         //Serial.print("Si5351a value B to set is =  ");
         //Serial.println(u.vfo_b);
         si5351.set_freq((u.vfo_b * 100ULL), SI5351_CLK0);
-        //si5351.set_freq((BFO_freq * 100ULL), SI5351_CLK2);
+        //si5351.set_freq((u.BFO_freq * 100ULL), SI5351_CLK2);
         delay(50);
       }
       //Serial.println();
